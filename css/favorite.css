@@ -1,0 +1,31 @@
+
+.k-atitle {
+    margin: 0;
+    font-size: .7rem;
+}
+
+.k-atag {
+    margin: 10px 0 0;
+}
+
+.k-atag span {
+    margin-right: .8rem;
+    font-size: .6rem;
+}
+
+.k-aimg {
+    height: 4rem;
+}
+
+.k-top {
+    font-weight: bold;
+    color: #e6374b;
+}
+.item-content a {
+    color: #555
+}
+
+.k-info-list{
+    
+margin: .5rem auto;
+}

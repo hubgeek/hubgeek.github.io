@@ -1,0 +1,47 @@
+
+.k-atitle {
+    margin: 0;
+    font-size: .7rem;
+}
+
+.k-atag {
+    margin: 10px 0 0;
+}
+
+.k-atag span {
+    margin-right: .8rem;
+    font-size: .6rem;
+}
+
+.k-aimg {
+    height: 4rem;
+}
+
+.k-top {
+    font-weight: bold;
+    color: #e6374b;
+}
+.item-content a {
+    color: #555
+}
+
+.k-info-list{
+    margin: 0;
+}
+
+span.icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+span.icon.icon-del {
+    line-height: 1rem;
+    background: url(../img/del.svg) no-repeat 0 0rem;
+    vertical-align: sub;
+}
+.k-his-date {
+    font-size: .6rem;
+    color: #0894ec;
+    text-align: center;
+    padding: .5rem;
+}

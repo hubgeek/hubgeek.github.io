@@ -1,0 +1,54 @@
+ul,
+li {
+    list-style: none;
+}
+
+.content-block {
+    margin: 0;
+    padding: 0;
+}
+
+
+.k-timeline {
+    padding: 1rem;
+    margin: 0;
+    background-color: #fff;
+}
+
+.k-timeline li {
+    position: relative;
+    border-left: 1px solid #999;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.k-timeline li::before {
+    position: absolute;
+    content: url('../../img/time.svg');
+    width: 1rem;
+    height: 1rem;
+    left: -.5rem;
+    top: -.1rem;
+}
+
+.k-timeline h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.k-timeline p {
+    font-size: .8rem;
+}
+
+.k-timeline a {
+    position: absolute;
+    right: 0;
+    bottom: 1.5rem;
+    font-size: .8rem;
+}
+.k-fbtn {
+    position: absolute;
+    right: .3rem;
+    top: .3rem;
+}

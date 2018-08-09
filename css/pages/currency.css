@@ -1,0 +1,127 @@
+ul,
+li {
+    list-style: none;
+}
+
+.buttons-row {
+    margin: 1rem;
+}
+
+.k-nav {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.k-nav::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.k-nav li {
+    display: inline-block;
+}
+
+.content-block {
+    margin: 0;
+    padding: 0;
+}
+
+.cur-content {
+    background: #fff;
+    margin: 0;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.cur-content img {
+    height: 4rem;
+    vertical-align: middle;
+}
+
+.cur-content h5 {
+    margin: .6rem;
+}
+
+.cur-content h4 {
+    margin: .6rem;
+}
+
+.k-charts {
+    width: 320px;
+    height: 280px;
+}
+
+.list-block {
+    margin: 0;
+}
+
+.k-atitle {
+    margin: 0;
+    font-size: .7rem;
+}
+
+.k-atag {
+    margin: 10px 0 0;
+}
+
+.k-atag span {
+    margin-right: .8rem;
+    font-size: .6rem;
+}
+
+.k-aimg {
+    height: 4rem;
+}
+
+.k-top {
+    font-weight: bold;
+    color: #e6374b;
+}
+
+.item-content a {
+    color: #555
+}
+
+.k-timeline {
+    padding: 1rem;
+    margin: 0;
+    background-color: #fff;
+}
+
+.k-timeline li {
+    position: relative;
+    border-left: 1px solid #999;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.k-timeline li::before {
+    position: absolute;
+    content: url('../../img/time.svg');
+    width: 1rem;
+    height: 1rem;
+    left: -.5rem;
+    top: -.1rem;
+}
+
+.k-timeline h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.k-timeline p {}
+
+.k-timeline a {
+    position: absolute;
+    right: 0;
+    bottom: 1.5rem;
+}
+.k-fbtn {
+    position: absolute;
+    right: .3rem;
+    top: .3rem;
+}

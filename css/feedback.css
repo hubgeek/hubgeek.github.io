@@ -1,0 +1,53 @@
+.k-fb-type {
+    
+background:  #fff;
+}
+.k-fb-type span {
+    display: inline-block;
+    margin: .5rem;
+}
+textarea {
+    margin: .6rem 2% .3rem;
+    width: 96%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: .2rem;
+    font-size: .8rem;
+    padding: .5rem;
+}
+.k-fb-title {
+    font-size:  .8rem;
+    padding: .5rem;
+}
+.k-fb-txt {
+    
+background: #fff;
+}
+.k-fb-ipt{
+    
+background: #fff;
+}
+.k-fb-btn {
+    background: #fff;
+    padding: .5rem;
+}
+.k-fb-ipt input {
+    
+width:  94%;
+    
+margin: .5rem;
+    
+display: inline-block;
+    
+border: 1px solid #bbb;
+    
+border-radius: 0.2rem;
+    
+font-size: .8rem;
+    
+padding: .5rem;
+}
+.k-fb-btn button {
+    width: 100%;
+}
