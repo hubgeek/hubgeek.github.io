@@ -4644,10 +4644,10 @@ Device/OS Detection
       var $input = $(e.target);
       $input.parents(".searchbar").addClass("searchbar-active");
     });
-    $(document).on("click", ".searchbar-cancel", function(e) {
-      var $btn = $(e.target);
-      $btn.parents(".searchbar").removeClass("searchbar-active");
-    });
+    // $(document).on("click", ".searchbar-cancel", function(e) {
+    //   var $btn = $(e.target);
+    //   $btn.parents(".searchbar").removeClass("searchbar-active");
+    // });
     $(document).on("blur", ".searchbar input", function(e) {
       var $input = $(e.target);
       $input.parents(".searchbar").removeClass("searchbar-active");
@@ -5424,8 +5424,8 @@ Device/OS Detection
     $.initIndexList($content);
 
     //extend
-    if($.initSwiper) $.initSwiper($content);
-    if($.initSwipeout) $.initSwipeout();  // don't pass $content because the swipeout element is not $content
+    // if($.initSwiper) $.initSwiper($content);
+    // if($.initSwipeout) $.initSwipeout();  // don't pass $content because the swipeout element is not $content
   };
 
 

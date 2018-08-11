@@ -1,0 +1,46 @@
+.content {
+    overflow: hidden;
+}
+
+.bar-header-secondary {
+    top: 0;
+}
+.k-s-content {
+    background: #fff;
+    height: 100%;
+    padding-top: 2rem;
+
+}
+.k-coin-search {    
+    width: 100%;
+    height: 23rem;
+    overflow: auto;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
+    -ms-flex-align: start;
+    -webkit-box-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.k-coin-search li {
+    width: 32%;
+    display: block;
+    float: left;
+    margin-bottom: 1.206rem;
+}
+.k-coin-search li  img {
+    width: 1.4472rem;
+    float: left;
+}
+.k-coin-search li span {
+    height: 1.4472rem;
+    line-height: 1.4472rem;
+    display: block;
+    margin-left: 2rem;
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>链动资讯</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/light7.min.css">
+    <link rel="stylesheet" href="../css/light7-swiper.min.css">
+    <link rel="stylesheet" href="../css/pages/follow.css">   
+    
+  </head>
+  <body>
+    
+    <div class="page">
+        <header class="bar bar-nav">
+          <!-- <a class="button button-link button-nav pull-left" href="/demos/card" data-transition='slide-out'>
+            <span class="icon icon-left"></span>
+            返回
+          </a> -->
+          <h1 class="title">链动资讯</h1>
+          <a class="button button-link button-nav pull-right" href="./search.html" data-transition='slide-out'>
+            <span class="icon icon-search"></span>
+            搜索
+          </a>
+        </header>
+        <nav class="bar bar-tab">
+          <a class="tab-item active" href="../index.html">
+              <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="798"><path d="M515.820896 983.880597c-252.179104 0-458.507463-206.328358-458.507463-458.507463s206.328358-458.507463 458.507463-458.507462 458.507463 206.328358 458.507462 458.507462-206.328358 458.507463-458.507462 458.507463z m0-840.597015c-210.149254 0-382.089552 171.940299-382.089553 382.089552s171.940299 382.089552 382.089553 382.089553 382.089552-171.940299 382.089552-382.089553-171.940299-382.089552-382.089552-382.089552z"  p-id="799"></path><path d="M515.820896 964.776119c-106.985075 0-191.044776-192.955224-191.044777-439.402985s84.059701-439.402985 191.044777-439.402985 191.044776 192.955224 191.044776 439.402985-84.059701 439.402985-191.044776 439.402985z m0-840.597015c-74.507463 0-152.835821 160.477612-152.835821 401.19403s78.328358 401.19403 152.835821 401.19403 152.835821-160.477612 152.83582-401.19403-80.238806-401.19403-152.83582-401.19403z"  p-id="800"></path><path d="M95.522388 506.268657h827.223881v38.208955H95.522388z"  p-id="801"></path></svg>
+            <span class="tab-label">项目</span>
+          </a> 
+          <a class="tab-item" href="./newsletter.html">
+              <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="463"><path d="M261.731343 735.522388c-3.820896 0-9.552239-1.910448-11.462686-3.820895-7.641791-7.641791-9.552239-19.104478-1.910448-26.746269l183.402985-215.880597c3.820896-3.820896 7.641791-5.731343 13.373134-7.641791 5.731343 0 9.552239 1.910448 13.373135 5.731343l179.582089 158.567164 170.029851-173.850746c7.641791-7.641791 19.104478-7.641791 26.746269 0 7.641791 7.641791 7.641791 19.104478 0 26.746269L649.552239 685.850746c-7.641791 7.641791-19.104478 7.641791-26.746269 0l-177.671642-158.567164-170.02985 200.597015c-3.820896 5.731343-7.641791 7.641791-13.373135 7.641791z"  p-id="464"></path><path d="M259.820896 718.328358m-49.671642 0a49.671642 49.671642 0 1 0 99.343283 0 49.671642 49.671642 0 1 0-99.343283 0Z"  p-id="465"></path><path d="M443.223881 506.268657m-49.671642 0a49.671642 49.671642 0 1 0 99.343283 0 49.671642 49.671642 0 1 0-99.343283 0Z"  p-id="466"></path><path d="M638.089552 672.477612m-49.671642 0a49.671642 49.671642 0 1 0 99.343284 0 49.671642 49.671642 0 1 0-99.343284 0Z"  p-id="467"></path><path d="M857.791045 962.865672h-687.761194c-63.044776 0-114.626866-51.58209-114.626866-114.626866V229.253731c0-63.044776 51.58209-114.626866 114.626866-114.626865h687.761194c63.044776 0 114.626866 51.58209 114.626865 114.626865v620.895523c0 61.134328-49.671642 112.716418-114.626865 112.716418zM170.029851 191.044776c-21.014925 0-38.208955 17.19403-38.208955 38.208955v620.895523c0 21.014925 17.19403 38.208955 38.208955 38.208955h687.761194c21.014925 0 38.208955-17.19403 38.208955-38.208955V229.253731c0-21.014925-17.19403-38.208955-38.208955-38.208955h-687.761194z"  p-id="468"></path><path d="M330.507463 236.895522c-15.283582 0-28.656716-13.373134-28.656717-28.656716V89.791045c0-15.283582 13.373134-28.656716 28.656717-28.656717s28.656716 13.373134 28.656716 28.656717v118.447761c0 15.283582-11.462687 28.656716-28.656716 28.656716zM699.223881 236.895522c-15.283582 0-28.656716-13.373134-28.656717-28.656716V89.791045c0-15.283582 13.373134-28.656716 28.656717-28.656717s28.656716 13.373134 28.656716 28.656717v118.447761c0 15.283582-13.373134 28.656716-28.656716 28.656716z"  p-id="469"></path><path d="M93.61194 282.746269h840.597015v57.313432h-840.597015z"  p-id="470"></path></svg>
+
+            <span class="tab-label">快讯</span>
+          </a>         
+          <a class="tab-item" href="./infomation.html">
+              <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="810"><path d="M672.477612 978.149254h-496.716418c-63.044776 0-114.626866-51.58209-114.626866-114.626866v-687.761194c0-63.044776 51.58209-114.626866 114.626866-114.626866h496.716418c63.044776 0 114.626866 51.58209 114.626866 114.626866v687.761194c0 63.044776-51.58209 114.626866-114.626866 114.626866z m-496.716418-840.597015c-21.014925 0-38.208955 17.19403-38.208955 38.208955v687.761194c0 21.014925 17.19403 38.208955 38.208955 38.208955h496.716418c21.014925 0 38.208955-17.19403 38.208955-38.208955v-687.761194c0-21.014925-17.19403-38.208955-38.208955-38.208955h-496.716418z"  p-id="811"></path><path d="M876.895522 974.328358h-210.149253c-15.283582 0-28.656716-13.373134-28.656717-28.656716s13.373134-28.656716 28.656717-28.656717h210.149253c15.283582 0 28.656716-13.373134 28.656717-28.656716v-687.761194c0-15.283582-3.820896-24.835821-5.731343-28.656716h-24.835821c-15.283582 0-28.656716-13.373134-28.656717-28.656717S859.701493 114.626866 874.985075 114.626866h30.567164c34.38806 0 59.223881 36.298507 59.22388 85.970149v687.761194c-1.910448 45.850746-40.119403 85.970149-87.880597 85.970149zM615.164179 296.119403h-382.089552c-11.462687 0-19.104478-7.641791-19.104478-19.104478s7.641791-19.104478 19.104478-19.104477h382.089552c11.462687 0 19.104478 7.641791 19.104478 19.104477s-9.552239 19.104478-19.104478 19.104478zM615.164179 435.58209h-382.089552c-11.462687 0-19.104478-7.641791-19.104478-19.104478s7.641791-19.104478 19.104478-19.104478h382.089552c11.462687 0 19.104478 7.641791 19.104478 19.104478s-9.552239 19.104478-19.104478 19.104478zM615.164179 573.134328h-382.089552c-11.462687 0-19.104478-7.641791-19.104478-19.104477s7.641791-19.104478 19.104478-19.104478h382.089552c11.462687 0 19.104478 7.641791 19.104478 19.104478s-9.552239 19.104478-19.104478 19.104477zM372.537313 712.597015h-139.462686c-11.462687 0-19.104478-7.641791-19.104478-19.104478s7.641791-19.104478 19.104478-19.104477h139.462686c11.462687 0 19.104478 7.641791 19.104478 19.104477s-9.552239 19.104478-19.104478 19.104478z"  p-id="812"></path></svg>
+            <span class="tab-label">资讯</span>
+          </a>
+          
+          <a class="tab-item" href="./usercenter/index.html">
+              <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="530"><path d="M431.761194 559.761194c-124.179104 0-225.432836-101.253731-225.432836-225.432836S307.58209 108.895522 431.761194 108.895522 657.19403 210.149254 657.19403 334.328358s-101.253731 225.432836-225.432836 225.432836z m0-374.447761c-82.149254 0-149.014925 66.865672-149.014925 149.014925s66.865672 149.014925 149.014925 149.014926 149.014925-66.865672 149.014925-149.014926-66.865672-149.014925-149.014925-149.014925z"  p-id="531"></path><path d="M771.820896 911.283582c-21.014925 0-38.208955-17.19403-38.208956-38.208955C733.61194 706.865672 597.970149 573.134328 431.761194 573.134328S129.910448 706.865672 129.910448 873.074627c0 21.014925-17.19403 38.208955-38.208955 38.208955s-38.208955-17.19403-38.208956-38.208955C53.492537 664.835821 223.522388 496.716418 431.761194 496.716418s378.268657 170.029851 378.268657 378.268657c0 21.014925-17.19403 36.298507-38.208955 36.298507zM729.791045 529.19403c-9.552239 0-19.104478-5.731343-24.835821-13.373134-7.641791-13.373134-3.820896-30.567164 9.552239-40.119403 45.850746-28.656716 76.41791-78.328358 76.41791-133.731344 0-72.597015-47.761194-135.641791-118.447761-150.925373-15.283582-3.820896-24.835821-19.104478-21.014925-34.38806 3.820896-15.283582 19.104478-24.835821 34.388059-21.014925 95.522388 22.925373 162.38806 106.985075 162.38806 206.328358 0 74.507463-40.119403 145.19403-103.164179 183.402985-5.731343 1.910448-11.462687 3.820896-15.283582 3.820896z"  p-id="532"></path><path d="M932.298507 867.343284c-15.283582 0-28.656716-13.373134-28.656716-28.656717 0-126.089552-72.597015-240.716418-191.044776-307.582089-13.373134-7.641791-19.104478-24.835821-11.462687-38.208956s24.835821-19.104478 38.208956-11.462686c137.552239 78.328358 221.61194 212.059701 221.61194 357.253731 0 17.19403-11.462687 28.656716-28.656717 28.656717z"  p-id="533"></path></svg>
+            <span class="tab-label">我的</span>
+          </a>
+        </nav>
+        <div class="content">
+          
+<div class="buttons-tab">
+  <ul class="k-nav">
+    <li>
+      <a href="./follow.html" class="active button">关注</a>
+    </li>
+    <li>
+      <a href="../index.html" class="button">推荐</a>
+    </li>
+    <li>
+      <a href="template/currency.html" class="button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+    <li>
+      <a href="#" class=" button">btc</a>
+    </li>
+  </ul>
+</div>
+          <div class="content-block">
+          
+            <div class="content-block">
+          
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">          
+                    <div class="row k-follow">
+                      <div class="col-33">
+                        <img src="https://modao.cc/uploads3/images/2314/23141621/raw_1532506679.png" alt="">
+                        <h5>BTC</h5>
+                        <p>
+                          <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                            <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                              p-id="4121"></path>
+                          </svg>
+                          <span>15万+</span>
+                        </p>
+                        <button class="k-fbtn button button-round button-light">已关注</button>
+                      </div>
+                      <div class="col-33">
+                        <img src="https://modao.cc/uploads3/images/2326/23266722/raw_1532835803.png" alt="">
+                        <h5>BTC</h5>
+                        <p>
+                          <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                            <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                              p-id="4121"></path>
+                          </svg>
+                          <span>15万+</span>
+                        </p>
+                        <button class="k-fbtn button button-round ">关注</button>
+                      </div>
+                      <div class="col-33">
+                        <img src="https://modao.cc/uploads3/images/2326/23266740/raw_1532835843.png" alt="">
+                        <h5>BTC</h5>
+                        <p>
+                          <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                            <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                              p-id="4121"></path>
+                          </svg>
+                          <span>15万+</span>
+                        </p>
+                        <button class="k-fbtn button button-round button-light">已关注</button>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="swiper-slide">          
+                    <div class="row k-follow">
+                      <div class="col-33">
+                        <img src="https://modao.cc/uploads3/images/2314/23141621/raw_1532506679.png" alt="">
+                        <h5>BTC</h5>
+                        <p>
+                          <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                            <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                              p-id="4121"></path>
+                          </svg>
+                          <span>15万+</span>
+                        </p>
+                        <button class="k-fbtn button button-round button-light">已关注</button>
+                      </div>
+                      <div class="col-33">
+                        <img src="https://modao.cc/uploads3/images/2326/23266722/raw_1532835803.png" alt="">
+                        <h5>BTC</h5>
+                        <p>
+                          <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                            <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                              p-id="4121"></path>
+                          </svg>
+                          <span>15万+</span>
+                        </p>
+                        <button class="k-fbtn button button-round ">关注</button>
+                      </div>
+                      <div class="col-33">
+                        <img src="https://modao.cc/uploads3/images/2326/23266740/raw_1532835843.png" alt="">
+                        <h5>BTC</h5>
+                        <p>
+                          <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                            <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                              p-id="4121"></path>
+                          </svg>
+                          <span>15万+</span>
+                        </p>
+                        <button class="k-fbtn button button-round button-light">已关注</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">          
+                      <div class="row k-follow">
+                        <div class="col-33">
+                          <img src="https://modao.cc/uploads3/images/2314/23141621/raw_1532506679.png" alt="">
+                          <h5>BTC</h5>
+                          <p>
+                            <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                              version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                              <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                                p-id="4121"></path>
+                            </svg>
+                            <span>15万+</span>
+                          </p>
+                          <button class="k-fbtn button button-round button-light">已关注</button>
+                        </div>
+                        <div class="col-33">
+                          <img src="https://modao.cc/uploads3/images/2326/23266722/raw_1532835803.png" alt="">
+                          <h5>BTC</h5>
+                          <p>
+                            <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                              version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                              <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                                p-id="4121"></path>
+                            </svg>
+                            <span>15万+</span>
+                          </p>
+                          <button class="k-fbtn button button-round ">关注</button>
+                        </div>
+                        <div class="col-33">
+                          <img src="https://modao.cc/uploads3/images/2326/23266740/raw_1532835843.png" alt="">
+                          <h5>BTC</h5>
+                          <p>
+                            <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                              version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                              <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                                p-id="4121"></path>
+                            </svg>
+                            <span>15万+</span>
+                          </p>
+                          <button class="k-fbtn button button-round button-light">已关注</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">          
+                        <div class="row k-follow">
+                          <div class="col-33">
+                            <img src="https://modao.cc/uploads3/images/2314/23141621/raw_1532506679.png" alt="">
+                            <h5>BTC</h5>
+                            <p>
+                              <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                                <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                                  p-id="4121"></path>
+                              </svg>
+                              <span>15万+</span>
+                            </p>
+                            <button class="k-fbtn button button-round button-light">已关注</button>
+                          </div>
+                          <div class="col-33">
+                            <img src="https://modao.cc/uploads3/images/2326/23266722/raw_1532835803.png" alt="">
+                            <h5>BTC</h5>
+                            <p>
+                              <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                                <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                                  p-id="4121"></path>
+                              </svg>
+                              <span>15万+</span>
+                            </p>
+                            <button class="k-fbtn button button-round ">关注</button>
+                          </div>
+                          <div class="col-33">
+                            <img src="https://modao.cc/uploads3/images/2326/23266740/raw_1532835843.png" alt="">
+                            <h5>BTC</h5>
+                            <p>
+                              <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4120">
+                                <path d="M987.52 367.36c-108.16-146.56-266.88-239.36-444.16-239.36-177.28 0-335.36 92.8-444.16 239.36-48 64.64-48 160.64 0 225.28C208 739.2 366.72 832 543.36 832c177.28 0 335.36-92.8 444.16-239.36C1035.52 528 1035.52 432 987.52 367.36zM544 704C420.48 704 320 603.52 320 480S420.48 256 544 256C667.52 256 768 356.48 768 480S667.52 704 544 704zM544 320C455.68 320 384 391.68 384 480S455.68 640 544 640C632.32 640 704 568.32 704 480S632.32 320 544 320z"
+                                  p-id="4121"></path>
+                              </svg>
+                              <span>15万+</span>
+                            </p>
+                            <button class="k-fbtn button button-round button-light">已关注</button>
+                          </div>
+                        </div>
+                      </div>
+
+
+                </div>
+              </div>
+          
+              <div class="k-follow-list list-block">
+                <ul class="list-container">
+
+
+                    <li class="item-content">
+                        <a href="./article.html" class="item-inner row" external>
+                          <div class="col-60">
+                            <h4 class="k-atitle">
+                              首届中国区块链媒体社会责任论坛图文直播---
+                            </h4>
+                            <p class="k-atag">ghj
+                              <span>sdf</span>
+                              <span>sdf</span>
+                            </p>
+                          </div>
+                          <div class="col-40">
+                            <img src="https://modao.cc/uploads3/images/2314/23149833/raw_1532511667.jpeg" class="k-aimg" />
+                          </div>
+                        </a>
+                      </li>
+
+
+
+                </ul>
+                <!-- preloader -->
+                <!-- <div class="infinite-scroll-preloader">
+                                      <div class="preloader"></div>
+                                    </div>
+                                  </div> -->
+          
+          
+          
+          
+          
+              </div>
+            </div>
+          
+          </div>
+      </div>
+
+
+    <script type='text/javascript' src='../js/libs/zepto.min.js' charset='utf-8'></script>
+    <!-- <script type='text/javascript' src='https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js' charset='utf-8'></script> -->
+    
+    <script type='text/javascript' src='../js/libs/light7.js' charset='utf-8'></script>
+    <script type='text/javascript' src='../js/libs/light7-swiper.min.js' charset='utf-8'></script>
+
+    <script type='text/javascript' src="../js/pages/follow.js"></script>
+  </body>
+</html>

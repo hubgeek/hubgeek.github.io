@@ -3,6 +3,10 @@ li {
     list-style: none;
 }
 
+.content {
+    background: #fff;
+}
+
 .buttons-row {
     margin: 1rem;
 }
@@ -52,6 +56,7 @@ li {
 .k-charts {
     width: 320px;
     height: 280px;
+    margin: 0 auto;
 }
 
 .list-block {
@@ -82,7 +87,7 @@ li {
 }
 
 .item-content a {
-    color: #555
+    color: #555;
 }
 
 .k-timeline {
@@ -124,4 +129,71 @@ li {
     position: absolute;
     right: .3rem;
     top: .3rem;
+}
+div.item-inner.k-slink {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+       -webkit-box-pack: start;
+           -ms-flex-pack: start;
+               justify-content: flex-start;
+}
+.k-slink a {
+    
+display: inline-block;
+    
+padding-top: 2rem;
+    
+font-size: .6rem;
+    
+width: 3rem;
+    
+text-align: center;
+}
+.ico-websit {
+    background: url(../../img/ico-link.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+
+.ico-browser
+{
+    background: url(../../img/ico-earth.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+.ico-paper
+{
+    background: url(../../img/ico-book.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+.ico-github
+{
+    background: url(../../img/ico-github.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+.ico-facebook
+{
+    background: url(../../img/ico-facebook.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+.ico-telegram
+{
+    background: url(../../img/ico-telegram.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+.ico-twitter
+{
+    background: url(../../img/icon-twitter.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+.ico-weibo
+{
+    background: url(../../img/icon-weibo.svg) no-repeat top center;
+    background-size: 1.5rem;
+}
+.k-qrcode img {
+   margin: auto;
+   display: inline-block;
+   width: 300px;
+}
+a.k-link {
+    color: #0894ec;
 }

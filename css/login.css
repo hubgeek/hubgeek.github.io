@@ -1,0 +1,98 @@
+.content {
+    background: #fff;
+    padding: 0 .5rem;
+    font-size: .7rem;
+}
+
+.k-tips {
+    margin-top: 1rem;
+}
+
+.k-login-phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem .5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.k-login-phone input {}
+
+.k-login-content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.k-login-content input {
+    border: none;
+    /* -webkit-box-flex: 1; */
+    -ms-flex: 1;
+    /* flex: 1; */
+    padding: 0 .5rem;
+}
+
+input.k-pcode {
+    width: 3rem;
+    border-right: 1px solid #ccc;
+}
+
+.k-login-code {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem .5rem;
+    border-bottom: 1px solid #eee;
+    /* justify-content: space-between; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.k-login-code input {}
+
+.k-login-code button {}
+
+.k-login-btn {
+    margin-top: 1rem;
+}
+
+.k-login-btn button {
+    width: 100%;
+}
+
+.k-getcode {
+    border-left: 1px solid #ccc;
+    padding-left: .5rem;
+    /* word-break: keep-all; */
+    text-align: center;
+}
+
+.k-swlogin {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.k-pass-content {
+    text-align: center;
+}
+
+.k-pass-content a {
+    margin: 1rem .5rem;
+    display: inline-block;
+    color: #999;
+}
+
+.k-login {
+    border-bottom: 1px solid #eee;
+}
+
+.k-pact {
+    padding: 1rem;
+    color: #ccc;
+    vertical-align: middle;
+}
+
+.k-pact input {}
+
+.k-pact label {
+    vertical-align: middle;
+}

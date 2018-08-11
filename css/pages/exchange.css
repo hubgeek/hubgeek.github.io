@@ -1,0 +1,16 @@
+.list-block {
+    margin: 0;
+    font-size: .7rem;
+}
+.item-media img {
+    width: 2rem;
+    height: 2rem;
+}
+.k-btitle,
+.k-btitle .item-after
+{    
+color:#999;
+}
+.k-link {
+    
+}

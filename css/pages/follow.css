@@ -1,0 +1,99 @@
+ul,
+li {
+    list-style: none;
+}
+
+.k-nav {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.k-nav::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.k-nav li {
+    display: inline-block;
+}
+
+.content-block {
+    margin: 0;
+    padding: 0;
+}
+
+
+.k-follow {
+    text-align: center;
+    background-color: #fff;
+}
+
+.k-follow img {
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.k-follow h5 {
+    margin: 0;
+}
+
+.k-follow p {
+    font-size: .6rem;
+    margin: .2rem;
+    /* background:url(/img/eyes.svg) no-repeat; */
+}
+
+.k-follow button {
+    margin: 0 auto;
+}
+.k-follow .col-33 {
+    position: relative;
+}
+.k-follow .col-33:first-child::before {   
+    border: none;
+}
+.k-follow .col-33::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 4rem;
+    border-left: 1px solid #555;
+    left: 0;
+    top: 2rem;
+}
+.k-atitle {
+    margin: 0;
+    font-size: .7rem;
+}
+
+.k-atag {
+    margin: 10px 0 0;
+}
+
+.k-atag span {
+    margin-right: .8rem;
+    font-size: .6rem;
+}
+
+.k-aimg {
+    height: 4rem;
+}
+
+.k-top {
+    font-weight: bold;
+    color: #e6374b;
+}
+.item-content a {
+    color: #555
+}
+
+.k-info-list{
+    
+margin: .5rem auto;
+}
+.k-follow-list {
+ margin: 0;   
+}
