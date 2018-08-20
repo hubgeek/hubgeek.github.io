@@ -219,3 +219,33 @@ a.k-link {
     color: #333;
     border-bottom: 2px solid #0c3c8b;
 }
+.k-curlist {
+
+padding: 1rem;
+}
+
+.k-curlist li {
+    
+margin-bottom: 1rem;
+}
+.k-curlist span {display: inline-block;}
+.k-curlist a {
+    
+display: block;
+}
+.k-cleft {
+    
+color: #999;
+    
+width: 4rem;
+    
+vertical-align: top;
+}
+.k-cright {
+    
+color: #333;
+}
+.top-line {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
