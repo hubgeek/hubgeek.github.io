@@ -1,4 +1,4 @@
-ul,
+/* ul,
 li {
     list-style: none;
 }
@@ -23,12 +23,27 @@ li {
 .content-block {
     margin: 0;
     padding: 0;
-}
+} */
 
 
 .k-follow {
     text-align: center;
     background-color: #fff;
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.k-fbox {
+    border: 1px solid #eee;
+    width: 120px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: .2rem;
+    box-shadow: 0 0 2px #ccc;
 }
 
 .k-follow img {
@@ -51,8 +66,11 @@ li {
 }
 .k-follow .col-33 {
     position: relative;
+    /* border: 1px solid #ddd; */
+    -webkit-box-shadow: 0px 0px 5px 0px #ccc;
+            box-shadow: 0px 0px 5px 0px #ccc;
 }
-.k-follow .col-33:first-child::before {   
+/* .k-follow .col-33:first-child::before {   
     border: none;
 }
 .k-follow .col-33::before {
@@ -63,7 +81,7 @@ li {
     border-left: 1px solid #555;
     left: 0;
     top: 2rem;
-}
+} */
 .k-atitle {
     margin: 0;
     font-size: .7rem;
@@ -90,10 +108,13 @@ li {
     color: #555
 }
 
-.k-info-list{
-    
+.k-info-list{    
 margin: .5rem auto;
 }
 .k-follow-list {
  margin: 0;   
+}
+.k-follow::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }

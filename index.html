@@ -16,17 +16,17 @@
   <body>
     
     <div class="page">
-        <header class="bar bar-nav">
+        <!-- <header class="bar bar-nav"> -->
           <!-- <a class="button button-link button-nav pull-left" href="/demos/card" data-transition='slide-out'>
             <span class="icon icon-left"></span>
             返回
           </a> -->
-          <h1 class="title">链动资讯</h1>
+          <!-- <h1 class="title">链动资讯</h1>
           <a class="button button-link button-nav pull-right" href="./template/search.html" data-transition='slide-out'>
             <span class="icon icon-search"></span>
             搜索
           </a>
-        </header>
+        </header> -->
         <nav class="bar bar-tab">
           <a class="tab-item active" href="./index.html">
               <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="798"><path d="M515.820896 983.880597c-252.179104 0-458.507463-206.328358-458.507463-458.507463s206.328358-458.507463 458.507463-458.507462 458.507463 206.328358 458.507462 458.507462-206.328358 458.507463-458.507462 458.507463z m0-840.597015c-210.149254 0-382.089552 171.940299-382.089553 382.089552s171.940299 382.089552 382.089553 382.089553 382.089552-171.940299 382.089552-382.089553-171.940299-382.089552-382.089552-382.089552z"  p-id="799"></path><path d="M515.820896 964.776119c-106.985075 0-191.044776-192.955224-191.044777-439.402985s84.059701-439.402985 191.044777-439.402985 191.044776 192.955224 191.044776 439.402985-84.059701 439.402985-191.044776 439.402985z m0-840.597015c-74.507463 0-152.835821 160.477612-152.835821 401.19403s78.328358 401.19403 152.835821 401.19403 152.835821-160.477612 152.83582-401.19403-80.238806-401.19403-152.83582-401.19403z"  p-id="800"></path><path d="M95.522388 506.268657h827.223881v38.208955H95.522388z"  p-id="801"></path></svg>
@@ -52,45 +52,43 @@
 <div class="buttons-tab">
   <ul class="k-nav">
     <li>
-      <a href="./template/follow.html" class=" button">关注</a>
+      <a href="./template/follow.html" >关注</a>
     </li>
     <li>
-      <a href="#tab2" class=" active button">推荐</a>
+      <a href="#tab2" class=" active ">推荐</a>
     </li>
     <li>
-      <a href="template/currency.html" class="button">btc</a>
+      <a href="template/currency.html" >BTC</a>
+    </li>    
+    <li>
+      <a href="#" >BCD</a>
     </li>
     <li>
-      <a href="#" class=" button">btc</a>
+      <a href="#" >ELF</a>
     </li>
     <li>
-      <a href="#" class=" button">btc</a>
+      <a href="#" >INK</a>
     </li>
     <li>
-      <a href="#" class=" button">btc</a>
+      <a href="#" >TRX</a>
     </li>
     <li>
-      <a href="#" class=" button">btc</a>
+      <a href="#" >BCD</a>
     </li>
     <li>
-      <a href="#" class=" button">btc</a>
+      <a href="#" >ELF</a>
     </li>
     <li>
-      <a href="#" class=" button">btc</a>
+      <a href="#" >INK</a>
     </li>
     <li>
-      <a href="#" class=" button">btc</a>
+      <a href="#" >TRX</a>
     </li>
-    <li>
-      <a href="#" class=" button">btc</a>
-    </li>
-    <li>
-      <a href="#" class=" button">btc</a>
-    </li>
-    <li>
-      <a href="#" class=" button">btc</a>
-    </li>
+
   </ul>
+  <a href="./template/search.html" class="search-link">
+    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDE2IDE2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDkuMyAoNTExNjcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5tay1tb3JlLWljb248L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxkZWZzPjwvZGVmcz4NCiAgICA8ZyBpZD0ibWstbW9yZS1pY29uIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPHBvbHlnb24gaWQ9IlJlY3RhbmdsZS0xNyIgZmlsbD0iIzlCOUI5QiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOC4yOTI4OTMsIDUuMjkyODkzKSByb3RhdGUoLTEzNS4wMDAwMDApIHRyYW5zbGF0ZSgtOC4yOTI4OTMsIC01LjI5Mjg5MykgIiBwb2ludHM9IjMgMCAxMy41ODU3ODY0IDEuNDE0MjEzNTYgNC40MTQyMTM1NiAxMC41ODU3ODY0Ij48L3BvbHlnb24+DQogICAgPC9nPg0KPC9zdmc+" alt="">
+  </a>
 </div>
           <div class="content-block">
             <div class="tabs">
@@ -153,26 +151,26 @@
 
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222661/raw_1532670432.jpeg" alt=""><p>hahahahahah</p> </div>
-                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222687/raw_1532670461.png" alt=""><p>sdfsdfasgw34534gt</p></div>
-                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222677/raw_1532670449.jpeg" alt=""><p>sdfh54678888888888888888888</p></div>
-                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222669/raw_1532670441.jpeg" alt=""><p>aaaaaaaaaaaaaaaaaaaa</p></div>
+                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222661/raw_1532670432.jpeg" alt=""><p>HitChain基金会战略发布会即将启航</p> </div>
+                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222687/raw_1532670461.png" alt=""><p>比特币熊途未尽 大佬淡定韭菜心惊</p></div>
+                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222677/raw_1532670449.jpeg" alt=""><p>HitChain基金会战略发布会即将启航</p></div>
+                          <div class="swiper-slide"><img src="https://modao.cc/uploads3/images/2322/23222669/raw_1532670441.jpeg" alt=""><p>比特币熊途未尽 大佬淡定韭菜心惊</p></div>
                         </div>
                       </div>
                       <div class="row k-quotes">
-                          <div class="col-33 k-rise">
+                          <div class="k-qbox k-rise">
                             <h5>BTC</h5>
                             <h4>8090.19</h4>
                             <h6>+0.37%</h6>
                             <p>=55376.39CNY</p>
                           </div>
-                          <div class="col-33 k-fall">
+                          <div class="k-qbox k-fall">
                               <h5>BTC</h5>
                               <h4>8090.19</h4>
                               <h6>-0.37%</h6>
                               <p>=55376.39CNY</p>
                             </div>
-                            <div class="col-33 k-fall">
+                            <div class="k-qbox k-fall">
                                 <h5>BTC</h5>
                                 <h4>8090.19</h4>
                                 <h6>-0.37%</h6>

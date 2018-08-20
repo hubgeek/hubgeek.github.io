@@ -34,10 +34,12 @@ li {
 }
 
 .cur-content {
-    background: #fff;
+    background: #0c3c8b;
     margin: 0;
     padding: 1rem 0;
     position: relative;
+    color: #fff;
+    font-weight: normal;
 }
 
 .cur-content img {
@@ -51,6 +53,7 @@ li {
 
 .cur-content h4 {
     margin: .6rem;
+    font-weight: normal;
 }
 
 .k-charts {
@@ -125,75 +128,94 @@ li {
     right: 0;
     bottom: 1.5rem;
 }
+
 .k-fbtn {
     position: absolute;
     right: .3rem;
-    top: .3rem;
+    top: 1.2rem;
+    color: #fff;
 }
+
 div.item-inner.k-slink {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-       -webkit-box-pack: start;
-           -ms-flex-pack: start;
-               justify-content: flex-start;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
 }
+
 .k-slink a {
-    
-display: inline-block;
-    
-padding-top: 2rem;
-    
-font-size: .6rem;
-    
-width: 3rem;
-    
-text-align: center;
+    display: inline-block;
+    padding-top: 2rem;
+    font-size: .6rem;
+    width: 3rem;
+    text-align: center;
 }
+
 .ico-websit {
     background: url(../../img/ico-link.svg) no-repeat top center;
     background-size: 1.5rem;
 }
 
-.ico-browser
-{
+.ico-browser {
     background: url(../../img/ico-earth.svg) no-repeat top center;
     background-size: 1.5rem;
 }
-.ico-paper
-{
+
+.ico-paper {
     background: url(../../img/ico-book.svg) no-repeat top center;
     background-size: 1.5rem;
 }
-.ico-github
-{
+
+.ico-github {
     background: url(../../img/ico-github.svg) no-repeat top center;
     background-size: 1.5rem;
 }
-.ico-facebook
-{
+
+.ico-facebook {
     background: url(../../img/ico-facebook.svg) no-repeat top center;
     background-size: 1.5rem;
 }
-.ico-telegram
-{
+
+.ico-telegram {
     background: url(../../img/ico-telegram.svg) no-repeat top center;
     background-size: 1.5rem;
 }
-.ico-twitter
-{
+
+.ico-twitter {
     background: url(../../img/icon-twitter.svg) no-repeat top center;
     background-size: 1.5rem;
 }
-.ico-weibo
-{
+
+.ico-weibo {
     background: url(../../img/icon-weibo.svg) no-repeat top center;
     background-size: 1.5rem;
 }
+
 .k-qrcode img {
-   margin: auto;
-   display: inline-block;
-   width: 300px;
+    margin: auto;
+    display: inline-block;
+    width: 300px;
 }
+
 a.k-link {
     color: #0894ec;
+}
+
+.k-cur-tab {
+    margin: .5rem;
+    padding: .5rem;
+    -webkit-box-shadow: 0px 3px 2px #f7f7f7;
+    box-shadow: 0px 3px 2px #f7f7f7;
+}
+
+.k-cur-tab a {
+    color: #999;
+    margin-right: .5rem;
+    padding-bottom: .2rem;
+}
+
+.k-cur-tab a.active {
+    color: #333;
+    border-bottom: 2px solid #0c3c8b;
 }

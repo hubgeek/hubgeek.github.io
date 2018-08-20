@@ -21,7 +21,7 @@ $(function () {
 
         function temp(i) {
             if (i <= 3) {
-                return `<span class="k-top">sdf</span>`
+                return `<span class="k-top">置顶</span>`
             }
             return ''
         }
@@ -37,7 +37,7 @@ $(function () {
                 <h4 class="k-atitle">                
                 首届中国区块链媒体社会责任论坛图文直播---${i}
                 </h4>
-                <p class="k-atag">${temp(i)}<span>sdf</span><span>sdf</span></p>
+                <p class="k-atag">${temp(i)}<span>李玟</span><span>3小时前</span></p>
                 </div>
                 <div class="col-40"><img src="https://modao.cc/uploads3/images/2314/23149833/raw_1532511667.jpeg" class="k-aimg" /></div>
                 </a></li>`

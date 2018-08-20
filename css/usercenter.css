@@ -24,7 +24,7 @@ i.icon.icon-set {
 }
 
 .list-block {
-    margin: .5rem 0;
+    margin: 0;
 }
 
 .k-user-info {
@@ -44,20 +44,26 @@ i.icon.icon-set {
 }
 
 .k-user-operate p {
-    margin: 0;
+    margin: .5rem 0 0;
     font-size: .8rem;
 }
 
 .k-user-operate a {
-    color: #999;
+    color: #fff;
 }
 
-.k-user-opt {}
+.k-user-opt {
+    margin-top: .5rem;
+}
 
 .k-user-opt a {
     display: inline-block;
     width: 100%;
-    color: #999;
+    color: #333;
+}
+
+.k-user-opt .item-media {
+    margin-left: .5rem;
 }
 
 .content-padded {}
@@ -72,6 +78,8 @@ i.icon.icon-set {
 
 .k-avt-upload {
     text-align: center;
+    background: #395cd6;
+    height: 8rem;
 }
 
 .k-avt-upload label {
@@ -96,7 +104,7 @@ i.icon.icon-set {
 }
 
 .k-logout {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .k-avatar {
@@ -104,8 +112,44 @@ i.icon.icon-set {
 }
 
 .k-user-info div {
-    color: #999;
+    color: #fff;
 }
-.k-user-info .item-inner{
+
+.k-user-info .item-inner {
     margin-top: .3rem
+}
+
+.media-list ul {
+    padding: 1rem;
+}
+
+.k-user-operate ul {
+    padding-bottom: 1rem;
+}
+
+.media-list ul,
+.k-user-operate ul {
+    background: #395cd6;
+    color: #fff;
+}
+
+.k-ulist-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.k-usubmit {
+    margin-top: 2rem;
+}
+
+.k-usubmit a {
+    background: #395cd6;
+    color: #fff;
+}
+
+.k-ulist .item-title.label {
+ margin-left: 2rem;
 }
